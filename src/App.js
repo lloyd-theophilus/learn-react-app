@@ -1,6 +1,5 @@
 import Todo from "./conponents/todos/Todo";
-import Modal from "./conponents/todos/modal/Modal";
-import BackDrop from "./conponents/backdrop/BackDrop";
+
 
 
 function App() {
@@ -12,8 +11,6 @@ function App() {
       <Todo text="You can be whatever you want" />
       <Todo text="Challenge yourself to something great" />
       <Todo text="Just do it" />
-      <Modal />
-      <BackDrop/>
     </div>
   );
 }
